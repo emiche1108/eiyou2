@@ -6,9 +6,10 @@
 <head>
     <title>ようこそTOPぺージ</title>
     <!-- CSSファイルのリンク -->
-    <link rel="stylesheet" type="text/css" href="buttonColor.css">
+    <link rel="stylesheet" type="text/css" 
+    href="${pageContext.request.contextPath}/CSS/styles/buttonColor.css">
+    
 </head>
-
 
 <body>
     <h1>${greeting}</h1>
