@@ -10,7 +10,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import model.Recipe;
+import model.Dish;
 import service.SideDishService; 
 
 
@@ -24,7 +24,7 @@ import service.SideDishService;
 	        String selectedVegetable = request.getParameter("selectedVegetable");
 	        
 	        // 野菜からレシピを取得
-	        List<Recipe> recipes = SideDishService.getRecipesForVegetable(selectedVegetable);
+	        List<Dish> recipes = SideDishService.getRecipesForVegetable(selectedVegetable);
 	        // リクエストスコープに格納
 	        request.setAttribute("recipes", recipes);
 	        // JSPにデータを渡す
