@@ -36,6 +36,8 @@ http://localhost:8080/Yasai/
 
 ## 📒使い方
 1.色を選ぶ：アプリを開き、まずは食卓に「ほしい色」を選択。 
+![画像の説明](images/main.png)
+
 !(https://raw.githubusercontent.com/emiche1108/eiyou2/main/main.png)
 
 
