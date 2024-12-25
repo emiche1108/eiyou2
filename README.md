@@ -37,10 +37,12 @@ http://localhost:8080/Yasai/
 
 ## 📒使い方
 1.TOPページ：会員登録不要。始めるボタンを押す。  
-![Alt text](/path/to/img.jpg)  
+![画像の説明](https://github.com/emiche1108/eiyou2/raw/main/images/main.png)
 
-2.色を選ぶ：まずは食卓に「ほしい色」を選択。 
-![画像の説明](images/color.png)
+
+2.色を選ぶ：まずは食卓に「ほしい色」を選択。  
+![画像の説明](images/color.png)  
+
 
 3.提案された内容のチェック：色に合わせて提案された副菜を確認。  
 
