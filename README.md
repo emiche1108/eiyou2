@@ -37,7 +37,7 @@ http://localhost:8080/Yasai/
 
 ## 📒使い方
 1.TOPページ：会員登録不要。始めるボタンを押す。  
-<img src="https://github.com/emiche1108/eiyou2/raw/main/images/mainn.png" width="500" height="380" />
+<img src="https://github.com/emiche1108/eiyou2/raw/main/images/main.png" width="500" height="380" />
 
 
 2.色を選ぶ：まずは食卓に「ほしい色」を選択。  
