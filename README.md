@@ -62,6 +62,7 @@ http://localhost:8080/Yasai/
 
 
 ### シーケンス図（システム内のオブジェクト間のやりとりを時系列に沿って表現する図）
+```
 やりとりを一目で理解できるように、整理整頓を目的で作る。
 【TOP画面・挨拶】
 ユーザー → Main.java →　index.jsp+footer.jsp　→挨拶ページ 
@@ -84,9 +85,11 @@ vegetables　→　VageAndRscipe vegetablesに関連する副菜の提案
 
 ＜気に入った場合＞
 ユーザー → 「これで決定」ボタン → 再びresult.jsp → ユーザー
+```
 
 
 ###ファイル階層について(仮)
+```
 Yasai
 /src
 ├── src/main/java         
@@ -160,6 +163,7 @@ Yasai
 │  ├── /images
 
 │  └── /js 　　　(JavaScriptファイル)
+```
 
 
 
