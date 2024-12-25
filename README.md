@@ -61,6 +61,107 @@ http://localhost:8080/Yasai/
 栄養素に関する新情報を追加し、さらに健康的な食事作りをサポートします。  
 
 
+### シーケンス図（システム内のオブジェクト間のやりとりを時系列に沿って表現する図）
+やりとりを一目で理解できるように、整理整頓を目的で作る。
+【TOP画面・挨拶】
+ユーザー → Main.java →　index.jsp+footer.jsp　→挨拶ページ 
+ユーザーが始めるボタン押す→colorSelect.jsp　
+
+【色の選択】
+colorSelect.jsp　でユーザーが色選択→
+ColorSelect.java＋Dish.javaの空箱　色に関連する野菜を、1つだけランダムに出す
+→出てきた野菜　vegetables
+
+【副菜の提案】
+vegetables　→　VageAndRscipe vegetablesに関連する副菜の提案
+　　　　　　　→ CommentService vegetablesに関連するコメント 
+
+→ result.jsp で副菜とコメントを表示→ ユーザー
+
+【選択次第で分岐】
+＜気に入らない場合＞
+ユーザー → 「やり直し」ボタン → ReturnColorSelect → index.jsp → ユーザー
+
+＜気に入った場合＞
+ユーザー → 「これで決定」ボタン → 再びresult.jsp → ユーザー
+
+
+###ファイル階層について(仮)
+Yasai
+/src
+├── src/main/java         
+
+│       ├── /main　　　メイン
+│       │    ├── Main.java　　　　　 (スタートポイント)
+
+│       │    └── GreetingUtil.java　　 (時間帯別挨拶)
+
+│       │
+│       ├── /controller　　　コントロール 
+
+│       │    ├── ColorSelect.java  　　(色選択)
+
+│       │     └── ReturnColorSelect.java 　(色選択に戻る)
+
+│       │     └──SideDishServlet　　　  　(副菜の提案)
+
+│       │     └── Resipemada　　　　　　(作り方。準備中)
+
+│       │
+│       ├── /service　　　
+
+│       │    ├──ColorService　　　　（色に関連する野菜）
+
+│       │    ├── SideDishAdvise.java     (副菜提案)
+
+│       │    └──CommentService.java     (栄養面のコメント)
+
+│       │    └──RecipeService　　　（レシピ表示。準備中）
+
+│       │
+│       ├── /model　　　
+│       │    ├── Color.java　　　　  (色モデル)
+│       │    ├── SideDish.java　　　(副菜モデル)
+│       │    ├── Dish.java　　　　　(副菜の料理名モデル)
+│       │    └── Comment.java　　  (コメント)
+
+│       │
+└── /test
+
+├── /webapp　　
+
+│ ├── /WEB-INF 　 
+
+│  │　├──  web.xml
+
+│  │   ├── /jsp
+
+│  │   　├──error.jsp
+
+│  │   　├── index.jsp  　　　(トップページ+色選択ページ)
+
+│  │   　├── result.jsp  　　　(副菜結果ページ)
+
+│  │   　├── recipezyunnbi.jsp   (レシピ表示。準備中)
+│  │  　 └── footer.jsp           (共通フッター)
+
+│  │
+
+│  ├── /lib     (jarファイルを置く場所)
+
+│  　  └── /classes 　(コンパイル済みクラスファイル (自動生成))
+
+│  ├── /CSS
+
+│  │  └── styles
+
+│  │
+
+│  ├── /images
+
+│  └── /js 　　　(JavaScriptファイル)
+
+
 
 ## 💻使用技術
 バックエンド  
