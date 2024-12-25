@@ -37,6 +37,7 @@ http://localhost:8080/Yasai/
 ## 📒使い方
 1.色を選ぶ：アプリを開き、まずは食卓に「ほしい色」を選択。 
 ![Sample image of Manadala sheet](https://github.com/eiyou2/images/main.png)
+https://github.com/emiche1108/eiyou2/tree/main/images/main.png
 
 
 2.提案された副菜をチェック：色に合わせて提案された副菜を確認。  
