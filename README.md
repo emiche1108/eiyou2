@@ -45,7 +45,7 @@ http://localhost:8080/Yasai/
 
 
 3.提案された内容のチェック：色に合わせて提案された副菜を確認。  
-<img src="https://github.com/emiche1108/eiyou2/raw/main/images/result.png" width="500" height="430" />
+<img src="https://github.com/emiche1108/eiyou2/raw/main/images/result.png" width="500" height="500" />
 
 
 4-1.レシピの確認：作り方も「レシピ」ボタンで確認できます。
