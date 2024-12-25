@@ -36,8 +36,8 @@ http://localhost:8080/Yasai/
 
 
 ## 📒使い方
-1.TOPページ：会員登録不要。始めるボタンを押す。
-![画像の説明](images/main.png)
+1.TOPページ：会員登録不要。始めるボタンを押す。  
+![Alt text](/path/to/img.jpg)  
 
 2.色を選ぶ：まずは食卓に「ほしい色」を選択。 
 ![画像の説明](images/color.png)
