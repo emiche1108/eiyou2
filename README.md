@@ -41,11 +41,11 @@ http://localhost:8080/Yasai/
 
 
 2.色を選ぶ：まずは食卓に「ほしい色」を選択。  
-<img src="https://github.com/emiche1108/eiyou2/raw/main/images/color.png" width="500" height="380" />
+<img src="https://github.com/emiche1108/eiyou2/raw/main/images/colorr.png" width="500" height="380" />
 
 
 3.提案された内容のチェック：色に合わせて提案された副菜を確認。  
-<img src="https://github.com/emiche1108/eiyou2/raw/main/images/result.png" width="500" height="380" />
+<img src="https://github.com/emiche1108/eiyou2/raw/main/images/result.png" width="500" height="430" />
 
 
 4-1.レシピの確認：作り方も「レシピ」ボタンで確認できます。
